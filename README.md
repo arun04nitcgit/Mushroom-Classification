@@ -1,6 +1,6 @@
 # Mushroom-Classification
 This is Kaggle problem for mashroom classification
-Problem Definition:
+# Problem Definition:
 There are total 22 Attributes data colected regarding mashrooms and the objective is to fit the appropriate model which could identify the 
 if the mashroom is Edible or Poisonous.
 https://www.kaggle.com/uciml/mushroom-classification/data
