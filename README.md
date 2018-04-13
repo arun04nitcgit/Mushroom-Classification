@@ -1,7 +1,7 @@
 # Mushroom-Classification
 This is Kaggle problem for mashroom classification
 # Problem Definition:
-There are total 22 varients  collected regarding mashrooms and the objective is to fit the appropriate model which could identify if the mashroom is Edible or Poisonous.
+There are total 22 varients  collected regarding mashrooms and the objective is to identify model which could predict if the mashroom is Edible or Poisonous.
 https://www.kaggle.com/uciml/mushroom-classification/data
 
 cap-shape
