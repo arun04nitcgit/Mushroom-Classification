@@ -1,4 +1,14 @@
+library(randomForest)
+library(caret)
+
+library(dplyr)
+
+setwd("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+source("helper_functions.R")
+
 data = fetchAndCleanData()
+data_fac=data %>% mutate_if(is.character, as.factor)
+
 sample.ind = sample(2,  nrow(data), replace = T, prob = c(0.75,0.25))
 train = data[sample.ind==1,]  
 test = data[sample.ind==2,]  
