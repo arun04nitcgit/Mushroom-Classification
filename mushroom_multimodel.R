@@ -86,6 +86,7 @@ skimmed <- skim_to_wide(trainset)
 skimmed
 anyNA(skimmed)
 
+
 table(trainset$Class)
 
 
